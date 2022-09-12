@@ -404,27 +404,7 @@ function MakeScriptHub()
                 end
             end
         })
-
-        elseif game.PlaceId == 7253149844 then
-        local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-        local Window = OrionLib:MakeWindow({Name = "SmoxHub", HidePremium = false, PremiumOnly = false, SaveConfig = true, IntroEnabled = false})
-
-        local Tab = Window:MakeTab({
-
-            Name = "Loadstring",
-            PremiumOnly = false,
-            HidePremium = false,
-        })
-
-        Tab:AddButton({
-
-            Name = "Infinite yield",
-
-            Callback = function()
-                loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-            end
-        })
-
+       
         elseif game.PlaceId == 7772810845 then
          local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
          local Window = OrionLib:MakeWindow({Name = "SmoxHub", HidePremium = false, PremiumOnly = false, SaveConfig = true, IntroEnabled = false})
@@ -706,14 +686,6 @@ Tab:AddButton({
 
     Callback = function()
         CopyKey()
-        setclipboard("Fq#M8MJD6tNVdvCNrF+Zpj73qUhQ4xpqmPsZSYE52QQxk%*XhC!8USWMJu$ujm@j")
+        setclipboard("https://erick-denis-david-exploits.erickdenisdavid.repl.co/Key.html")
     end
 })
-
-local Tab = Window:MakeTab({
-
-    Name = "ChangeLog",
-})
-
-Tab:AddLabel("What's New?")
-Tab:AddLabel("None")
